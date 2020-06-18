@@ -68,6 +68,11 @@ namespace GoogleARCore.Examples.HelloAR
         /// </summary>
         private bool m_IsQuitting = false;
 
+        public int numberOfObjectAllowed = 1;
+        public int curentNumberOfObjects = 0;
+
+        public GameObject petObject;
+
         /// <summary>
         /// The Unity Awake() method.
         /// </summary>
@@ -114,44 +119,50 @@ namespace GoogleARCore.Examples.HelloAR
                     Debug.Log("Hit at back of the current DetectedPlane");
                 }
                 else
-                {
-                    // Choose the prefab based on the Trackable that got hit.
-                    GameObject prefab;
-                    if (hit.Trackable is FeaturePoint)
+                    if (curentNumberOfObjects < numberOfObjectAllowed)
                     {
-                        prefab = GameObjectPointPrefab;
-                    }
-                    else if (hit.Trackable is DetectedPlane)
-                    {
-                        DetectedPlane detectedPlane = hit.Trackable as DetectedPlane;
-                        if (detectedPlane.PlaneType == DetectedPlaneType.Vertical)
+                        curentNumberOfObjects++;
+                        // Choose the prefab based on the Trackable that got hit.
+                        GameObject prefab;
+                        if (hit.Trackable is FeaturePoint)
                         {
-                            prefab = GameObjectVerticalPlanePrefab;
+                            prefab = GameObjectPointPrefab;
+                        }
+                        else if (hit.Trackable is DetectedPlane)
+                        {
+                            DetectedPlane detectedPlane = hit.Trackable as DetectedPlane;
+                            if (detectedPlane.PlaneType == DetectedPlaneType.Vertical)
+                            {
+                                prefab = GameObjectVerticalPlanePrefab;
+                            }
+                            else
+                            {
+                                prefab = GameObjectHorizontalPlanePrefab;
+                            }
                         }
                         else
                         {
                             prefab = GameObjectHorizontalPlanePrefab;
                         }
+
+                        // Instantiate prefab at the hit pose.
+                        petObject = Instantiate(prefab, hit.Pose.position, hit.Pose.rotation);
+
+                        // Compensate for the hitPose rotation facing away from the raycast (i.e.
+                        // camera).
+                        petObject.transform.Rotate(0, k_PrefabRotation, 0, Space.Self);
+
+                        // Create an anchor to allow ARCore to track the hitpoint as understanding of
+                        // the physical world evolves.
+                        var anchor = hit.Trackable.CreateAnchor(hit.Pose);
+
+                        // Make game object a child of the anchor.
+                        petObject.transform.parent = anchor.transform;
                     }
-                    else
-                    {
-                        prefab = GameObjectHorizontalPlanePrefab;
+                    else {
+                        Debug.Log("Cat move start " + hit.Pose.position);
+                        petObject.GetComponent<CatMoveTo>().StartMove(hit.Pose.position); 
                     }
-
-                    // Instantiate prefab at the hit pose.
-                    var gameObject = Instantiate(prefab, hit.Pose.position, hit.Pose.rotation);
-
-                    // Compensate for the hitPose rotation facing away from the raycast (i.e.
-                    // camera).
-                    gameObject.transform.Rotate(0, k_PrefabRotation, 0, Space.Self);
-
-                    // Create an anchor to allow ARCore to track the hitpoint as understanding of
-                    // the physical world evolves.
-                    var anchor = hit.Trackable.CreateAnchor(hit.Pose);
-
-                    // Make game object a child of the anchor.
-                    gameObject.transform.parent = anchor.transform;
-                }
             }
         }
 

@@ -974,6 +974,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5556665960204542149}
   - component: {fileID: 5556665960211533603}
+  - component: {fileID: -2282908331957319888}
   m_Layer: 0
   m_Name: Cat Lite
   m_TagString: Untagged
@@ -1007,7 +1008,7 @@ Animator:
   m_GameObject: {fileID: 5556665960204123365}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 756b0c574f380324a85262e736c0418b, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3ceda5bba4b49374e8bfbade2d28068c, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1016,6 +1017,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &-2282908331957319888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5556665960204123365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4967026f0cb72d340be8d1fd9a739d19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5556665960204123367
 GameObject:
   m_ObjectHideFlags: 0
