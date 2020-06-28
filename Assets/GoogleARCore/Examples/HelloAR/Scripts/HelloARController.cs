@@ -68,10 +68,16 @@ namespace GoogleARCore.Examples.HelloAR
         /// </summary>
         private bool m_IsQuitting = false;
 
-        public int numberOfObjectAllowed = 1;
+        public GameObject CatFood;
+        public GameObject CatToy;
+        public string SetModel = "cat";
+        public int numberOfObjectAllowed = 2;
         public int curentNumberOfObjects = 0;
 
         public GameObject petObject;
+        public GameObject foodObject;
+        public GameObject toyObject;
+        public string petStatus;
 
         private PetSelection petSelection;
         /// <summary>
@@ -132,7 +138,7 @@ namespace GoogleARCore.Examples.HelloAR
                     Debug.Log("Hit at back of the current DetectedPlane");
                 }
                 else
-                    if (curentNumberOfObjects < numberOfObjectAllowed)
+                    if (SetModel == "cat" && curentNumberOfObjects < numberOfObjectAllowed)
                     {
                         curentNumberOfObjects++;
                         // Choose the prefab based on the Trackable that got hit.
@@ -171,10 +177,56 @@ namespace GoogleARCore.Examples.HelloAR
 
                         // Make game object a child of the anchor.
                         petObject.transform.parent = anchor.transform;
+                        SetModel = "nothing";
                     }
-                    else {
+                    else if (SetModel == "food")
+                    {
+                        curentNumberOfObjects++;
+                        GameObject prefab;
+                        prefab = CatFood;
+
+                        // Instantiate prefab at the hit pose.
+                        foodObject = Instantiate(prefab, hit.Pose.position, hit.Pose.rotation);
+
+                        // Compensate for the hitPose rotation facing away from the raycast (i.e.
+                        // camera).
+                        foodObject.transform.Rotate(0, k_PrefabRotation, 0, Space.Self);
+
+                        // Create an anchor to allow ARCore to track the hitpoint as understanding of
+                        // the physical world evolves.
+                        var anchor = hit.Trackable.CreateAnchor(hit.Pose);
+
+                        // Make game object a child of the anchor.
+                        foodObject.transform.parent = anchor.transform;
+                        petObject.GetComponent<CatMoveTo>().StartMove(hit.Pose.position, "is_eating");
+                        SetModel = "nothing";
+                  
+                    }
+                    else if (SetModel == "toy")
+                    {
+                        curentNumberOfObjects++;
+                        GameObject prefab;
+                        prefab = CatToy;
+
+                        // Instantiate prefab at the hit pose.
+                        toyObject = Instantiate(prefab, hit.Pose.position, hit.Pose.rotation);
+
+                        // Compensate for the hitPose rotation facing away from the raycast (i.e.
+                        // camera).
+                        toyObject.transform.Rotate(0, k_PrefabRotation, 0, Space.Self);
+
+                        // Create an anchor to allow ARCore to track the hitpoint as understanding of
+                        // the physical world evolves.
+                        var anchor = hit.Trackable.CreateAnchor(hit.Pose);
+
+                        // Make game object a child of the anchor.
+                        toyObject.transform.parent = anchor.transform;
+                        petObject.GetComponent<CatMoveTo>().StartMove(hit.Pose.position, "is_playing");
+                    }
+                    else
+                    {
                         Debug.Log("Cat move start " + hit.Pose.position);
-                        petObject.GetComponent<CatMoveTo>().StartMove(hit.Pose.position); 
+                        petObject.GetComponent<CatMoveTo>().StartMove(hit.Pose.position, "is_walking");
                     }
             }
         }

@@ -9,6 +9,7 @@ public class PanelController : MonoBehaviour
     public GameObject foodPanel;
     public GameObject walkPanel;
     private GameObject currentPanel;
+    private GoogleARCore.Examples.HelloAR.HelloARController ARController;
     // Start is called before the first frame update
     void Start()
     {
@@ -38,7 +39,7 @@ public class PanelController : MonoBehaviour
 
     public void onHomeWalkButtonClicked()
     {
-        currentPanel.SetActive(false); 
+        currentPanel.SetActive(false);
         walkPanel.SetActive(true);
         currentPanel = walkPanel;
     }
@@ -50,12 +51,16 @@ public class PanelController : MonoBehaviour
 
     public void onFoodFoodButtonClicked()
     {
-        //吃食物动画
+        ARController = GameObject.Find("HelloAR Controller").GetComponent<GoogleARCore.Examples.HelloAR.HelloARController>();
+        ARController.SetModel = "food";
+        Debug.Log("eating clicked");
     }
 
     public void onMoodMoodButtonClicked()
     {
-        //玩球动画
+        ARController = GameObject.Find("HelloAR Controller").GetComponent<GoogleARCore.Examples.HelloAR.HelloARController>();
+        ARController.SetModel = "toy";
+        Debug.Log("playing clicked");
     }
 
     public void onbackButtonClilcked()
