@@ -52,16 +52,20 @@ public class PetSelection : MonoBehaviour
     //    Debug.Log("Right was clicked!");
     //}
 
-    public static int numberOfModel = 7;
-    private int selectedIndex = 1;
+    private int startNumberOfModel = 1;
+    private int endNumberOfModel = 4;
+    private static int allNumberOfModel = 8;
+    
+    private int selectedIndex;
     public GameObject selectedPet;
     private GameObject modelRoot;
     void Start()
     {
-        
         Object.DontDestroyOnLoad(gameObject);
         modelRoot = GameObject.Find("cat_model_root");
         Debug.Log("modelRoot: " + modelRoot.name);
+
+        selectedIndex = startNumberOfModel;
         selectedPet = modelRoot.transform.Find("cat_model " + selectedIndex.ToString()).gameObject;
         Debug.Log("PetShow: " + selectedPet.name);
         showPet();
@@ -83,8 +87,8 @@ public class PetSelection : MonoBehaviour
     public void onLeftButtonClick()
     {
         selectedIndex--;
-        if (selectedIndex == 0)
-            selectedIndex = numberOfModel;
+        if (selectedIndex == startNumberOfModel-1)
+            selectedIndex = endNumberOfModel;
         showPet();
         Debug.Log("Left was clicked!");
     }
@@ -92,14 +96,32 @@ public class PetSelection : MonoBehaviour
     public void onRightButtonClick()
     {
         selectedIndex++;
-        if (selectedIndex == numberOfModel+1)
-            selectedIndex = 1;
+        if (selectedIndex == endNumberOfModel+1)
+            selectedIndex = startNumberOfModel;
         showPet();
         Debug.Log("Right was clicked!");
     }
-    public void OnOKButtonClick()
+    public void OnConfirmButtonClick()
     {
+        GameObject.Find("Canvas").SetActive(false);
         SceneManager.LoadScene("HelloAR");
         Debug.Log("I was clicked!");
+    }
+    public void OnRerollButtonClick()
+    {
+        if(endNumberOfModel != allNumberOfModel)
+        {
+            startNumberOfModel += 4;
+            endNumberOfModel += 4;
+        }
+        else
+        {
+            startNumberOfModel = 1;
+            endNumberOfModel = 4;
+        }
+        selectedPet.SetActive(false);
+        selectedIndex = startNumberOfModel;
+        selectedPet = modelRoot.transform.Find("cat_model " + selectedIndex.ToString()).gameObject;
+        selectedPet.SetActive(true);
     }
 }
