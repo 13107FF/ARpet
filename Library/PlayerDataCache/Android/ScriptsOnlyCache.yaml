@@ -1,8 +1,6 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - CatMoveTo
-    - ConfirmButtonController
     - GoogleARCore.ARCoreBackgroundRenderer
     - GoogleARCore.ARCoreCameraConfigFilter
     - GoogleARCore.ARCoreSession
@@ -30,10 +28,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -72,69 +68,57 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 74
-      Script: {instanceID: 0}
     - Class: 84
       Script: {instanceID: 0}
     - Class: 89
-      Script: {instanceID: 0}
-    - Class: 90
-      Script: {instanceID: 0}
-    - Class: 91
-      Script: {instanceID: 0}
-    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11296}
+      Script: {instanceID: 15232}
     - Class: 114
-      Script: {instanceID: 11596}
+      Script: {instanceID: 15524}
     - Class: 114
-      Script: {instanceID: 11660}
+      Script: {instanceID: 15588}
     - Class: 114
-      Script: {instanceID: 12146}
+      Script: {instanceID: 16068}
     - Class: 114
-      Script: {instanceID: 12160}
+      Script: {instanceID: 16082}
     - Class: 114
-      Script: {instanceID: 12178}
+      Script: {instanceID: 16100}
     - Class: 114
-      Script: {instanceID: 12254}
+      Script: {instanceID: 16176}
     - Class: 114
-      Script: {instanceID: 12286}
+      Script: {instanceID: 16210}
     - Class: 114
-      Script: {instanceID: 12508}
+      Script: {instanceID: 16430}
     - Class: 114
-      Script: {instanceID: 12742}
+      Script: {instanceID: 16660}
     - Class: 114
-      Script: {instanceID: 12918}
+      Script: {instanceID: 16836}
     - Class: 114
-      Script: {instanceID: 12950}
+      Script: {instanceID: 16868}
     - Class: 114
-      Script: {instanceID: 13178}
+      Script: {instanceID: 17092}
     - Class: 114
-      Script: {instanceID: 13284}
+      Script: {instanceID: 17188}
     - Class: 114
-      Script: {instanceID: 13388}
+      Script: {instanceID: 17286}
     - Class: 114
-      Script: {instanceID: 13654}
+      Script: {instanceID: 17546}
     - Class: 114
-      Script: {instanceID: 13658}
+      Script: {instanceID: 17550}
     - Class: 114
-      Script: {instanceID: 13796}
+      Script: {instanceID: 17688}
     - Class: 114
-      Script: {instanceID: 13860}
+      Script: {instanceID: 17748}
     - Class: 114
-      Script: {instanceID: 14270}
-    - Class: 114
-      Script: {instanceID: 14292}
+      Script: {instanceID: 18146}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
-      Script: {instanceID: 0}
-    - Class: 137
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -184,29 +168,27 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11406}
+      Script: {instanceID: 15336}
     - Class: 114
-      Script: {instanceID: 12076}
+      Script: {instanceID: 15998}
     - Class: 114
-      Script: {instanceID: 12098}
+      Script: {instanceID: 16020}
     - Class: 114
-      Script: {instanceID: 12220}
+      Script: {instanceID: 16142}
     - Class: 114
-      Script: {instanceID: 12534}
+      Script: {instanceID: 16456}
     - Class: 114
-      Script: {instanceID: 12598}
+      Script: {instanceID: 16518}
     - Class: 114
-      Script: {instanceID: 12680}
+      Script: {instanceID: 16598}
     - Class: 114
-      Script: {instanceID: 12768}
+      Script: {instanceID: 16686}
     - Class: 114
-      Script: {instanceID: 13060}
+      Script: {instanceID: 16974}
     - Class: 114
-      Script: {instanceID: 13524}
+      Script: {instanceID: 17422}
     - Class: 114
-      Script: {instanceID: 13706}
-    - Class: 114
-      Script: {instanceID: 14266}
+      Script: {instanceID: 18142}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -226,7 +208,7 @@ ScriptsOnlyBuild:
     className: CanvasScaler
   - hash:
       serializedVersion: 2
-      Hash: 3c08375166df118bd1801438fc36b92f
+      Hash: c42672c997f8be6b1aa86a927ebea785
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SelectionCaret
@@ -298,6 +280,12 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
       Hash: 0672b9e3dbb3ff2a29a041dabfd01b05
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -358,7 +346,7 @@ ScriptsOnlyBuild:
     className: TweenScale
   - hash:
       serializedVersion: 2
-      Hash: 72712369a7c681ad84fc255a5ec0b333
+      Hash: aeb62f729c52c814dec86c47dcac1471
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Text
@@ -412,7 +400,7 @@ ScriptsOnlyBuild:
     className: SpringPosition
   - hash:
       serializedVersion: 2
-      Hash: 8e0313c6f5e2ce35991fec2d64f8eaab
+      Hash: 89f9a1b4c64db9559e39f4a2e3bfaadd
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Image
@@ -562,7 +550,7 @@ ScriptsOnlyBuild:
     className: AugmentedFacesExampleController
   - hash:
       serializedVersion: 2
-      Hash: 4e9333594897a1fb8b136ad2eae996c7
+      Hash: d941ab6dd93d37ffdf2277f2ea2375a0
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SubMeshUI
@@ -688,7 +676,7 @@ ScriptsOnlyBuild:
     className: ControlPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: 573955ee292aa2132db78569274593c4
+      Hash: abd10858a4f3d0b82efa7c5c2b14a8ba
     assemblyName: Assembly-CSharp.dll
     namespaceName: GoogleARCore.Examples.HelloAR
     className: HelloARController
@@ -832,7 +820,7 @@ ScriptsOnlyBuild:
     className: TweenWidth
   - hash:
       serializedVersion: 2
-      Hash: 81147538e0995e02dabd31a05e50ca23
+      Hash: bab0e21437ff7fda9b2b73b9273640ea
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PetSelection
@@ -994,7 +982,7 @@ ScriptsOnlyBuild:
     className: ChatInput
   - hash:
       serializedVersion: 2
-      Hash: feb9a5a121d15fa3654d4e50a5233045
+      Hash: f84d945e5e1ca985698660fc26e9657f
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: RawImage
@@ -1258,6 +1246,12 @@ ScriptsOnlyBuild:
     className: NGUIDebug
   - hash:
       serializedVersion: 2
+      Hash: 24c74cc0d527a06113f2b967042769f0
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEditor.XR.LegacyInputHelpers
+    className: CameraOffset
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
     namespaceName: UnityEngine.Networking
@@ -1294,7 +1288,7 @@ ScriptsOnlyBuild:
     className: UIButtonRotation
   - hash:
       serializedVersion: 2
-      Hash: 3b760e6526e13f7504f59e210145899a
+      Hash: 8001a5f7502aab37e42206da015e6914
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextMeshProUGUI
@@ -1528,7 +1522,7 @@ ScriptsOnlyBuild:
     className: UISlider
   - hash:
       serializedVersion: 2
-      Hash: df434544c9f7b33d1cc7e635b180d279
+      Hash: 21d73eda81c18eacd2c91ad5dfaf2e32
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextMeshPro
@@ -1724,14 +1718,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DontDestroyOnLoad
   platform: 13
   scenePathNames:
   - Assets/Scenes/PetSelectionScene.unity
   - Assets/GoogleARCore/Examples/HelloAR/Scenes/HelloAR.unity
-  playerPath: F:/unity/project/ARpet/Release/testAR.apk
+  playerPath: D:/Files/Unity/HCI/ARpet/game/02.apk
