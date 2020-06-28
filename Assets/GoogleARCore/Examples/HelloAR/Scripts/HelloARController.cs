@@ -45,17 +45,17 @@ namespace GoogleARCore.Examples.HelloAR
         /// <summary>
         /// A prefab to place when a raycast from a user touch hits a vertical plane.
         /// </summary>
-        public GameObject GameObjectVerticalPlanePrefab;
+        private GameObject GameObjectVerticalPlanePrefab;
 
         /// <summary>
         /// A prefab to place when a raycast from a user touch hits a horizontal plane.
         /// </summary>
-        public GameObject GameObjectHorizontalPlanePrefab;
+        private GameObject GameObjectHorizontalPlanePrefab;
 
         /// <summary>
         /// A prefab to place when a raycast from a user touch hits a feature point.
         /// </summary>
-        public GameObject GameObjectPointPrefab;
+        private GameObject GameObjectPointPrefab;
 
         /// <summary>
         /// The rotation in degrees need to apply to prefab when it is placed.
@@ -73,9 +73,21 @@ namespace GoogleARCore.Examples.HelloAR
 
         public GameObject petObject;
 
+        private PetSelection petSelection;
         /// <summary>
         /// The Unity Awake() method.
         /// </summary>
+        /// 
+
+        void Start()
+        {
+            petSelection = GameObject.Find("UI Root").GetComponent<PetSelection>();
+            GameObjectPointPrefab = petSelection.selectedPet;
+            GameObjectVerticalPlanePrefab = petSelection.selectedPet;
+            GameObjectHorizontalPlanePrefab = petSelection.selectedPet;
+            Debug.Log("Cat name:" + GameObjectPointPrefab.name);
+        }
+
         public void Awake()
         {
             // Enable ARCore to target 60fps camera capture frame rate on supported devices.
@@ -88,6 +100,7 @@ namespace GoogleARCore.Examples.HelloAR
         /// </summary>
         public void Update()
         {
+            //Debug.Log("Cat name:" + GameObjectPointPrefab.name);
             _UpdateApplicationLifecycle();
 
             // If the player has not touched the screen, we are done with this update.
