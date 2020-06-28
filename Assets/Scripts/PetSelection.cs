@@ -7,6 +7,7 @@ public class PetSelection : MonoBehaviour
 {
     public GameObject[] petPrefabs; //用于存放宠物数组
     private int selectedIndex = 0; //创建选择索引的变量
+    public static GameObject selectedPet;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +23,7 @@ public class PetSelection : MonoBehaviour
     void petShow()
     {
         petPrefabs[selectedIndex].SetActive(true);
+        selectedPet = petPrefabs[selectedIndex];
         Debug.Log("PetShow: "+selectedIndex.ToString());
         for (int i = 0; i < petPrefabs.Length; i++)
             if (i != selectedIndex)

@@ -1,7 +1,6 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - ButtonController
     - CatMoveTo
     - ConfirmButtonController
     - GoogleARCore.ARCoreBackgroundRenderer
@@ -90,47 +89,47 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11228}
+      Script: {instanceID: 11296}
     - Class: 114
-      Script: {instanceID: 11484}
+      Script: {instanceID: 11596}
     - Class: 114
-      Script: {instanceID: 11536}
+      Script: {instanceID: 11660}
     - Class: 114
-      Script: {instanceID: 11958}
+      Script: {instanceID: 12146}
     - Class: 114
-      Script: {instanceID: 11968}
+      Script: {instanceID: 12160}
     - Class: 114
-      Script: {instanceID: 11986}
+      Script: {instanceID: 12178}
     - Class: 114
-      Script: {instanceID: 12050}
+      Script: {instanceID: 12254}
     - Class: 114
-      Script: {instanceID: 12080}
+      Script: {instanceID: 12286}
     - Class: 114
-      Script: {instanceID: 12270}
+      Script: {instanceID: 12508}
     - Class: 114
-      Script: {instanceID: 12458}
+      Script: {instanceID: 12742}
     - Class: 114
-      Script: {instanceID: 12610}
+      Script: {instanceID: 12918}
     - Class: 114
-      Script: {instanceID: 12636}
+      Script: {instanceID: 12950}
     - Class: 114
-      Script: {instanceID: 12830}
+      Script: {instanceID: 13178}
     - Class: 114
-      Script: {instanceID: 12920}
+      Script: {instanceID: 13284}
     - Class: 114
-      Script: {instanceID: 13010}
+      Script: {instanceID: 13388}
     - Class: 114
-      Script: {instanceID: 13242}
+      Script: {instanceID: 13654}
     - Class: 114
-      Script: {instanceID: 13246}
+      Script: {instanceID: 13658}
     - Class: 114
-      Script: {instanceID: 13350}
+      Script: {instanceID: 13796}
     - Class: 114
-      Script: {instanceID: 13402}
+      Script: {instanceID: 13860}
     - Class: 114
-      Script: {instanceID: 13750}
+      Script: {instanceID: 14270}
     - Class: 114
-      Script: {instanceID: 13770}
+      Script: {instanceID: 14292}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -154,71 +153,6 @@ ScriptsOnlyBuild:
     - Class: 328
       Script: {instanceID: 0}
     - Class: 329
-      Script: {instanceID: 0}
-    Assets/Scenes/PetSelection.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 54
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 11228}
-    - Class: 114
-      Script: {instanceID: 11382}
-    - Class: 114
-      Script: {instanceID: 11484}
-    - Class: 114
-      Script: {instanceID: 11536}
-    - Class: 114
-      Script: {instanceID: 12050}
-    - Class: 114
-      Script: {instanceID: 12610}
-    - Class: 114
-      Script: {instanceID: 13242}
-    - Class: 114
-      Script: {instanceID: 13750}
-    - Class: 114
-      Script: {instanceID: 20942}
-    - Class: 114
-      Script: {instanceID: 21104}
-    - Class: 114
-      Script: {instanceID: 21128}
-    - Class: 114
-      Script: {instanceID: 21148}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 137
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
       Script: {instanceID: 0}
     Assets/Scenes/PetSelectionScene.unity:
     - Class: 1
@@ -250,29 +184,29 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 20942}
+      Script: {instanceID: 11406}
     - Class: 114
-      Script: {instanceID: 21036}
+      Script: {instanceID: 12076}
     - Class: 114
-      Script: {instanceID: 21042}
+      Script: {instanceID: 12098}
     - Class: 114
-      Script: {instanceID: 21060}
+      Script: {instanceID: 12220}
     - Class: 114
-      Script: {instanceID: 21104}
+      Script: {instanceID: 12534}
     - Class: 114
-      Script: {instanceID: 21128}
+      Script: {instanceID: 12598}
     - Class: 114
-      Script: {instanceID: 21148}
+      Script: {instanceID: 12680}
     - Class: 114
-      Script: {instanceID: 21186}
+      Script: {instanceID: 12768}
     - Class: 114
-      Script: {instanceID: 21258}
+      Script: {instanceID: 13060}
     - Class: 114
-      Script: {instanceID: 21368}
+      Script: {instanceID: 13524}
     - Class: 114
-      Script: {instanceID: 26300}
+      Script: {instanceID: 13706}
     - Class: 114
-      Script: {instanceID: 26308}
+      Script: {instanceID: 14266}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -298,6 +232,12 @@ ScriptsOnlyBuild:
     className: TMP_SelectionCaret
   - hash:
       serializedVersion: 2
+      Hash: 5a7317f820417a8f01d66cbc3ea03ab7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIButtonMessage
+  - hash:
+      serializedVersion: 2
       Hash: 87ff43d2baf3385cba327d8f803a4ebb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -310,16 +250,34 @@ ScriptsOnlyBuild:
     className: TMP_Dropdown
   - hash:
       serializedVersion: 2
+      Hash: 3882922ca0f91a771970d0ec6d5cc006
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TweenOrthoSize
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: GoogleARCore.CrossPlatform
     className: XPAnchor
   - hash:
       serializedVersion: 2
+      Hash: 556311073e2947c6152b91076dc07093
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIPanel
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: GoogleARCore
     className: Anchor
+  - hash:
+      serializedVersion: 2
+      Hash: 119be7d1296f761b197e2ec32bbb7201
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIDragResize
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -340,10 +298,28 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
+      Hash: 0672b9e3dbb3ff2a29a041dabfd01b05
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIForwardEvents
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: GoogleARCore.Examples.Common
     className: SafeAreaScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 57b7901acb8f652edd2af0d543336fe2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TweenHeight
+  - hash:
+      serializedVersion: 2
+      Hash: 02bec3861aa7b799291672dffacf3562
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIToggledComponents
   - hash:
       serializedVersion: 2
       Hash: 04e4a8b0447477cc4e933d9e5311188f
@@ -358,6 +334,12 @@ ScriptsOnlyBuild:
     className: GroupTrack
   - hash:
       serializedVersion: 2
+      Hash: a99b59d27d911423ed976291aea0f77f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIButtonScale
+  - hash:
+      serializedVersion: 2
       Hash: a5781dc71a671b1ad2b38de19f24b71f
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -370,10 +352,22 @@ ScriptsOnlyBuild:
     className: AugmentedImageExampleController
   - hash:
       serializedVersion: 2
+      Hash: d7eb5423d443dd019c0473f0450a1f00
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TweenScale
+  - hash:
+      serializedVersion: 2
       Hash: 72712369a7c681ad84fc255a5ec0b333
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 73b5bfb772a2ba237fd7c1e14f5f2f22
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TweenColor
   - hash:
       serializedVersion: 2
       Hash: 499fd23433e68e265d153aa6b95d0047
@@ -388,6 +382,18 @@ ScriptsOnlyBuild:
     className: NetworkIdentity
   - hash:
       serializedVersion: 2
+      Hash: 2684fe2011fee21b4f41f5f0a322949d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIViewport
+  - hash:
+      serializedVersion: 2
+      Hash: d8aa7b31528af45883bf204f99315cda
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIWidget
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -400,6 +406,12 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
+      Hash: 32485f9ea0d5d1414c6872c0a01121aa
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SpringPosition
+  - hash:
+      serializedVersion: 2
       Hash: 8e0313c6f5e2ce35991fec2d64f8eaab
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -410,6 +422,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 002020d0363e1d2fc6726436c90292ce
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SpinWithMouse
   - hash:
       serializedVersion: 2
       Hash: 234235b9fb07320d11497e08a726cc56
@@ -430,6 +448,12 @@ ScriptsOnlyBuild:
     className: NetworkManagerUIController
   - hash:
       serializedVersion: 2
+      Hash: 8ddad4acd6db924b08ed345b7d53dbc5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIDragObject
+  - hash:
+      serializedVersion: 2
       Hash: 4cb443ffb7b54a755d9852ae91684f7d
     assemblyName: Assembly-CSharp.dll
     namespaceName: GoogleARCore.Examples.ComputerVision
@@ -440,6 +464,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 02f740a30dfd18844ff1e15bcfa1d9e1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIButtonColor
   - hash:
       serializedVersion: 2
       Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
@@ -454,6 +484,12 @@ ScriptsOnlyBuild:
     className: SignalAsset
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UICenterOnClick
+  - hash:
+      serializedVersion: 2
       Hash: 0dbc3be398b4869a5c8d0d8481ee402c
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -464,6 +500,24 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 652d31f28292d1457b7c9d0e8d30af75
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnvelopContent
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SetColorPickerColor
+  - hash:
+      serializedVersion: 2
+      Hash: 09cb269af205e45d8a8b2b846a873367
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WindowAutoYaw
   - hash:
       serializedVersion: 2
       Hash: 1e9c409e29cdc019c5521daf5eb17010
@@ -490,6 +544,12 @@ ScriptsOnlyBuild:
     className: AspectRatioFitter
   - hash:
       serializedVersion: 2
+      Hash: 4b56d99c2c4b41f872acbbb4e34ebba7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIScrollView
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -514,10 +574,40 @@ ScriptsOnlyBuild:
     className: TransitionArmModel
   - hash:
       serializedVersion: 2
+      Hash: 5621eaeed2fe1f72184c73640f14342d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIPlayTween
+  - hash:
+      serializedVersion: 2
       Hash: 5ab533713adae59372fb3e10a585c186
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 3882922ca0f91a771970d0ec6d5cc006
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TweenAlpha
+  - hash:
+      serializedVersion: 2
+      Hash: 00d9f714270df1d7e9b628227136d26d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AnimatedWidget
+  - hash:
+      serializedVersion: 2
+      Hash: 2acfcdc99c7b09d97d193f5315c49769
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UILabel
+  - hash:
+      serializedVersion: 2
+      Hash: 5ba92984d30d12d58513535145cea6c6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIButton
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -532,6 +622,12 @@ ScriptsOnlyBuild:
     className: Mask
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayIdleAnimations
+  - hash:
+      serializedVersion: 2
       Hash: d251bf88db6c95a6b1aa0b69298da9ef
     assemblyName: UnityEngine.SpatialTracking.dll
     namespaceName: UnityEngine.SpatialTracking
@@ -544,6 +640,12 @@ ScriptsOnlyBuild:
     className: Shadow
   - hash:
       serializedVersion: 2
+      Hash: 578ee2e8c8449303056d5a174a6f58c7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIDraggableCamera
+  - hash:
+      serializedVersion: 2
       Hash: 72c3a3bf16e34620934073ef94cabbe1
     assemblyName: Assembly-CSharp.dll
     namespaceName: GoogleARCore
@@ -554,6 +656,24 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: GoogleARCore.Examples.Common
     className: PlaneDiscoveryGuide
+  - hash:
+      serializedVersion: 2
+      Hash: 54874b40f0e22e02ee499be6c842f2c1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIFont
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIInputOnGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 6859fc72b0d19e051273f301ded9ac27
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UILocalize
   - hash:
       serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
@@ -598,10 +718,46 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
+      Hash: f80eb5ce0a319c05861df60997a03ab4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TweenPosition
+  - hash:
+      serializedVersion: 2
+      Hash: c54e5d238d05f0415928866fafbf602e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LoadLevelOnClick
+  - hash:
+      serializedVersion: 2
+      Hash: eea5432127e1c2d004b5b21205ff5a02
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ExampleDragDropSurface
+  - hash:
+      serializedVersion: 2
+      Hash: 109f86e77e3e584a98030da6ccd86928
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UISnapshotPoint
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UISoundVolume
+  - hash:
+      serializedVersion: 2
       Hash: 0451019579614cc079b33f5be5df7244
     assemblyName: Assembly-CSharp.dll
     namespaceName: GoogleARCore.Examples.CloudAnchors
     className: LocalPlayerController
+  - hash:
+      serializedVersion: 2
+      Hash: 3882922ca0f91a771970d0ec6d5cc006
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TweenFOV
   - hash:
       serializedVersion: 2
       Hash: 265cf27ba050d55ff33a8acab4ded6c0
@@ -616,10 +772,46 @@ ScriptsOnlyBuild:
     className: NetworkTransformVisualizer
   - hash:
       serializedVersion: 2
+      Hash: 00fe22251866b55c79b945eefd0d12c8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIPlayAnimation
+  - hash:
+      serializedVersion: 2
+      Hash: 218a8101db24f71ae4b21e3c0e33891b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DownloadTexture
+  - hash:
+      serializedVersion: 2
+      Hash: 726c2d80203503d04d711808c415de8d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UICenterOnChild
+  - hash:
+      serializedVersion: 2
       Hash: b818207c0b8a805931f7a7989870283e
     assemblyName: Assembly-CSharp.dll
     namespaceName: GoogleARCore
     className: ARCoreBackgroundRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 46b014cc0442c1021c122c23eef297fe
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIRoot
+  - hash:
+      serializedVersion: 2
+      Hash: cdb111c4aaa19d99269213a76a5a0697
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UISavedOption
+  - hash:
+      serializedVersion: 2
+      Hash: d01935e255746a23e8cc9d784d88b1b3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIAnchor
   - hash:
       serializedVersion: 2
       Hash: b3ab2106268377ffe25dd18ac23dca28
@@ -628,10 +820,40 @@ ScriptsOnlyBuild:
     className: TMP_Asset
   - hash:
       serializedVersion: 2
+      Hash: 235acfea8ea05a64f0d1848ecdb8a2c6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIEquipmentSlot
+  - hash:
+      serializedVersion: 2
+      Hash: 57b7901acb8f652edd2af0d543336fe2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TweenWidth
+  - hash:
+      serializedVersion: 2
+      Hash: 81147538e0995e02dabd31a05e50ca23
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PetSelection
+  - hash:
+      serializedVersion: 2
       Hash: d4020bafcd3ccbb5601a6e6c8ac78be0
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: b7981929821abd132370246ec4d57571
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PropertyBinding
+  - hash:
+      serializedVersion: 2
+      Hash: 14a71b262db23785deef59b9660eb41c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LagRotation
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -640,16 +862,46 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
+      Hash: 1dfb225149e66dddbb8c8187a3128d34
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TweenLetters
+  - hash:
+      serializedVersion: 2
       Hash: 269133bf6785f1e198f98a5b4b08eda1
     assemblyName: Assembly-CSharp.dll
     namespaceName: GoogleARCore.Examples.CloudAnchors
     className: ARCoreWorldOriginHelper
   - hash:
       serializedVersion: 2
+      Hash: 1edda90bd56ec046791e104758f27481
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIToggle
+  - hash:
+      serializedVersion: 2
+      Hash: f672cf9a788d7f2a0a1b4974d6db0e99
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UITexture
+  - hash:
+      serializedVersion: 2
+      Hash: 4af23350ad6d0a7b19e92d441cda5fc7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIStorageSlot
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
     namespaceName: UnityEngine.Networking
     className: NetworkCallbacks
+  - hash:
+      serializedVersion: 2
+      Hash: a96b2e79cb442899c4474f7d72dce30f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIEventTrigger
   - hash:
       serializedVersion: 2
       Hash: 21e871d89bbce53c038fc75ad1b7c7f3
@@ -671,9 +923,33 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIDrawCall
+  - hash:
+      serializedVersion: 2
+      Hash: 622546c1b2212a505b64070eeabb1323
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UICamera
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: aecbd573bbc1f7d53dc165c0f3513395
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: InvAttachmentPoint
+  - hash:
+      serializedVersion: 2
+      Hash: e2ff206140afa9fba550add28d8eab72
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIShowControlScheme
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -694,6 +970,12 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIWidgetContainer
+  - hash:
+      serializedVersion: 2
       Hash: 309c0efd4456d6e902823ab02606508d
     assemblyName: Assembly-CSharp.dll
     namespaceName: GoogleARCore.Examples.ObjectManipulation
@@ -706,16 +988,40 @@ ScriptsOnlyBuild:
     className: Button
   - hash:
       serializedVersion: 2
+      Hash: 06f86e46f4509164c48be005bf88d766
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ChatInput
+  - hash:
+      serializedVersion: 2
       Hash: feb9a5a121d15fa3654d4e50a5233045
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: RawImage
   - hash:
       serializedVersion: 2
+      Hash: f8df8f9481b4b718d9d4c3cb4730a6e1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UITooltip
+  - hash:
+      serializedVersion: 2
+      Hash: 077a655851f95717e3c15e754ebc0c57
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIInput
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: GoogleARCore.Examples.ObjectManipulation
     className: RotationManipulator
+  - hash:
+      serializedVersion: 2
+      Hash: c11ace4c6a16da2bce1177de63ebd86c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Spin
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -730,16 +1036,46 @@ ScriptsOnlyBuild:
     className: VerticalLayoutGroup
   - hash:
       serializedVersion: 2
+      Hash: 15e40b51761ae3b0b754261d2879bacd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIPlaySound
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
     namespaceName: UnityEngine.Networking
     className: NetworkStartPosition
   - hash:
       serializedVersion: 2
+      Hash: bf814466f60c79fedea5e6d4ed540cfd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TweenTransform
+  - hash:
+      serializedVersion: 2
+      Hash: 8b7ab3e01e398137620c0bc31ff095be
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UICursor
+  - hash:
+      serializedVersion: 2
       Hash: 1ab92b1501bff4203df13dd5880207c1
     assemblyName: Assembly-CSharp.dll
     namespaceName: GoogleARCore.Examples.AugmentedFaces
     className: ARCoreAugmentedFaceMeshFilter
+  - hash:
+      serializedVersion: 2
+      Hash: c845d81dd997d5094da7cdf0cc923eb4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TweenRotation
+  - hash:
+      serializedVersion: 2
+      Hash: 85b104ab42fb50172cc8a1c9e33072bb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIPopupList
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -754,6 +1090,12 @@ ScriptsOnlyBuild:
     className: RawImageVideoPlayer
   - hash:
       serializedVersion: 2
+      Hash: ceab607b5c6b3049e9c43ff476601811
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TypewriterEffect
+  - hash:
+      serializedVersion: 2
       Hash: 783f593b9380cf72d0f7ebfd4a0d4bcd
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -766,10 +1108,22 @@ ScriptsOnlyBuild:
     className: SignalReceiver
   - hash:
       serializedVersion: 2
+      Hash: 948d28d5ec4f9136b81f1647831b146c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIColorPicker
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: GoogleARCore.Examples.CloudAnchors
     className: StarController
+  - hash:
+      serializedVersion: 2
+      Hash: a8430d51ebf6bc87a7fa60b858954bc3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIDragDropContainer
   - hash:
       serializedVersion: 2
       Hash: 5ad4aa237d47ac2bab17bacb672edf7a
@@ -808,688 +1162,16 @@ ScriptsOnlyBuild:
     className: ARCoreSession
   - hash:
       serializedVersion: 2
-      Hash: 318c6c13a19c9fac98135ae14889de1b
-    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
-    namespaceName: UnityEngine.Networking
-    className: NetworkMigrationManager
-  - hash:
-      serializedVersion: 2
-      Hash: c1933cc0a2f4ff6eb13333347497beb3
-    assemblyName: Unity.Timeline.dll
-    namespaceName: UnityEngine.Timeline
-    className: TimelineAsset
-  - hash:
-      serializedVersion: 2
-      Hash: 5a95f817a1636cb57e1923240ad0cfa1
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: GoogleARCore
-    className: ARCoreSessionConfig
-  - hash:
-      serializedVersion: 2
-      Hash: edb986b6ebeb66208841352d63987938
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: GoogleARCore.Examples.CloudAnchors
-    className: CloudAnchorsExampleController
-  - hash:
-      serializedVersion: 2
-      Hash: 40eab39826f66889566d3a3e6ef95673
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: GoogleARCore.Examples.ObjectManipulation
-    className: TranslationManipulator
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
-    namespaceName: UnityEngine.Networking
-    className: NetworkBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: b640dcae08889dea4d87e95a455bbf6b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: GoogleARCore
-    className: AugmentedImageDatabase
-  - hash:
-      serializedVersion: 2
-      Hash: 3b760e6526e13f7504f59e210145899a
-    assemblyName: Unity.TextMeshPro.dll
-    namespaceName: TMPro
-    className: TextMeshProUGUI
-  - hash:
-      serializedVersion: 2
-      Hash: f336e086360abe49a3323e5f1583c35a
-    assemblyName: Unity.Timeline.dll
-    namespaceName: UnityEngine.Timeline
-    className: AudioTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 14cb302be190eb67bf7fb5f1aab28ce0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: GoogleARCore.Examples.ObjectManipulation
-    className: PawnManipulator
-  - hash:
-      serializedVersion: 2
-      Hash: ae83e830e7a90c0aff918c4c2e520825
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: GraphicRaycaster
-  - hash:
-      serializedVersion: 2
-      Hash: dea189cf620f6ac37dd27d491e1234b1
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: GoogleARCore.Examples.Common
-    className: DetectedPlaneGenerator
-  - hash:
-      serializedVersion: 2
-      Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
-    assemblyName: UnityEngine.TestRunner.dll
-    namespaceName: UnityEngine.TestTools
-    className: BeforeAfterTestCommandState
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: GoogleARCore.Examples.Common
-    className: DetectedPlaneVisualizer
-  - hash:
-      serializedVersion: 2
-      Hash: 1db723b554a361a812257e508051085f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: GoogleARCore
-    className: ARCoreCameraConfigFilter
-  - hash:
-      serializedVersion: 2
-      Hash: 1dcb82730d983b77cec736c6ef19f814
-    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
-    namespaceName: UnityEngine.Networking
-    className: NetworkDiscovery
-  - hash:
-      serializedVersion: 2
-      Hash: 893dbdbfe611d62e230a686ea89f1efd
-    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
-    namespaceName: UnityEngine.XR.LegacyInputHelpers
-    className: SwingArmModel
-  - hash:
-      serializedVersion: 2
-      Hash: c3d3430df9e3ea95e3e3d587961390fb
-    assemblyName: Unity.Timeline.dll
-    namespaceName: UnityEngine.Timeline
-    className: MarkerTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 8118d37154f214ab0486c7b2852792b7
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: GoogleARCore.Examples.ObjectManipulation
-    className: ScaleManipulator
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: GoogleARCore.Examples.ComputerVision
-    className: PointClickHandler
-  - hash:
-      serializedVersion: 2
-      Hash: d791aa6007fa3640be1164ea75bb087d
-    assemblyName: Unity.TextMeshPro.dll
-    namespaceName: TMPro
-    className: TMP_StyleSheet
-  - hash:
-      serializedVersion: 2
-      Hash: e6ae40841db498b6e673877ac45ad208
-    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
-    namespaceName: UnityEngine.Networking
-    className: NetworkAnimator
-  - hash:
-      serializedVersion: 2
-      Hash: df434544c9f7b33d1cc7e635b180d279
-    assemblyName: Unity.TextMeshPro.dll
-    namespaceName: TMPro
-    className: TextMeshPro
-  - hash:
-      serializedVersion: 2
-      Hash: 3165968ba45c74472d279ba04455fccb
-    assemblyName: Unity.TextMeshPro.dll
-    namespaceName: TMPro
-    className: TMP_ColorGradient
-  - hash:
-      serializedVersion: 2
-      Hash: 32c3fe85a7a8c40f53b416638ffaecad
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Cat_Lite_Demo
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UnityEngine.TestRunner.dll
-    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
-    className: PlayModeRunnerCallback
-  - hash:
-      serializedVersion: 2
-      Hash: a6be390312032ba0856f81fc3c448644
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: GoogleARCore.Examples.ObjectManipulation
-    className: SelectionManipulator
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.EventSystems
-    className: BaseInput
-  - hash:
-      serializedVersion: 2
-      Hash: 9b895dcabbc1faf095c000c32d471fd0
-    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
-    namespaceName: UnityEngine.Networking
-    className: NetworkTransformChild
-  - hash:
-      serializedVersion: 2
-      Hash: caa533b001ae39b864ba8425019e2268
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Outline
-  - hash:
-      serializedVersion: 2
-      Hash: e0ee4b3d4e27318934cc940a969d3d96
-    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
-    namespaceName: UnityEngine.Networking
-    className: NetworkManagerHUD
-  - hash:
-      serializedVersion: 2
-      Hash: a63fc1a3b035e5a0b5839cd7f7b3086e
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.EventSystems
-    className: EventTrigger
-  - hash:
-      serializedVersion: 2
-      Hash: 8649814970b42d345b89944b862453cc
-    assemblyName: Unity.TextMeshPro.dll
-    namespaceName: TMPro
-    className: TMP_SubMesh
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UnityEngine.TestRunner.dll
-    namespaceName: UnityEngine.TestRunner.Utils
-    className: TestRunCallbackListener
-  - hash:
-      serializedVersion: 2
-      Hash: 4ef0f7d42cdb13479386e1f049c315aa
-    assemblyName: UnityEngine.TestRunner.dll
-    namespaceName: UnityEngine.TestTools.TestRunner
-    className: PlaymodeTestsController
-  - hash:
-      serializedVersion: 2
-      Hash: 2aeeec1b1a144c469cd2d37776bc2315
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Dropdown
-  - hash:
-      serializedVersion: 2
-      Hash: 748dd2a2a28da4e618912da5ac45684b
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.EventSystems
-    className: StandaloneInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: 21e871d89bbce53c038fc75ad1b7c7f3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: GoogleARCore.Examples.CloudAnchors
-    className: CloudAnchorsNetworkManager
-  - hash:
-      serializedVersion: 2
-      Hash: 3783ede661ea842b191c776cf646c584
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CatMoveTo
-  - hash:
-      serializedVersion: 2
-      Hash: aa88ae22474df55295327e4ee99e5a24
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Toggle
-  - hash:
-      serializedVersion: 2
-      Hash: 8220b46879dc5e37db1b940c938f5744
-    assemblyName: Unity.Timeline.dll
-    namespaceName: UnityEngine.Timeline
-    className: SignalEmitter
-  - hash:
-      serializedVersion: 2
-      Hash: 7072231382eb3c4871b3dd75ad0227e1
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Slider
-  - hash:
-      serializedVersion: 2
-      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: ToggleGroup
-  - hash:
-      serializedVersion: 2
-      Hash: c3d3430df9e3ea95e3e3d587961390fb
-    assemblyName: Unity.Timeline.dll
-    namespaceName: UnityEngine.Timeline
-    className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 5a7317f820417a8f01d66cbc3ea03ab7
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UIButtonMessage
-  - hash:
-      serializedVersion: 2
-      Hash: 3882922ca0f91a771970d0ec6d5cc006
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TweenOrthoSize
-  - hash:
-      serializedVersion: 2
-      Hash: 556311073e2947c6152b91076dc07093
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UIPanel
-  - hash:
-      serializedVersion: 2
-      Hash: 119be7d1296f761b197e2ec32bbb7201
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UIDragResize
-  - hash:
-      serializedVersion: 2
-      Hash: 0672b9e3dbb3ff2a29a041dabfd01b05
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UIForwardEvents
-  - hash:
-      serializedVersion: 2
-      Hash: 57b7901acb8f652edd2af0d543336fe2
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TweenHeight
-  - hash:
-      serializedVersion: 2
-      Hash: 02bec3861aa7b799291672dffacf3562
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UIToggledComponents
-  - hash:
-      serializedVersion: 2
-      Hash: a99b59d27d911423ed976291aea0f77f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UIButtonScale
-  - hash:
-      serializedVersion: 2
-      Hash: d7eb5423d443dd019c0473f0450a1f00
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TweenScale
-  - hash:
-      serializedVersion: 2
-      Hash: 73b5bfb772a2ba237fd7c1e14f5f2f22
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TweenColor
-  - hash:
-      serializedVersion: 2
-      Hash: 2684fe2011fee21b4f41f5f0a322949d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UIViewport
-  - hash:
-      serializedVersion: 2
-      Hash: d8aa7b31528af45883bf204f99315cda
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UIWidget
-  - hash:
-      serializedVersion: 2
-      Hash: 32485f9ea0d5d1414c6872c0a01121aa
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SpringPosition
-  - hash:
-      serializedVersion: 2
-      Hash: 002020d0363e1d2fc6726436c90292ce
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SpinWithMouse
-  - hash:
-      serializedVersion: 2
-      Hash: 8ddad4acd6db924b08ed345b7d53dbc5
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UIDragObject
-  - hash:
-      serializedVersion: 2
-      Hash: 02f740a30dfd18844ff1e15bcfa1d9e1
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UIButtonColor
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UICenterOnClick
-  - hash:
-      serializedVersion: 2
-      Hash: 652d31f28292d1457b7c9d0e8d30af75
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: EnvelopContent
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SetColorPickerColor
-  - hash:
-      serializedVersion: 2
-      Hash: 09cb269af205e45d8a8b2b846a873367
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: WindowAutoYaw
-  - hash:
-      serializedVersion: 2
-      Hash: 4b56d99c2c4b41f872acbbb4e34ebba7
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UIScrollView
-  - hash:
-      serializedVersion: 2
-      Hash: 5621eaeed2fe1f72184c73640f14342d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UIPlayTween
-  - hash:
-      serializedVersion: 2
-      Hash: 3882922ca0f91a771970d0ec6d5cc006
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TweenAlpha
-  - hash:
-      serializedVersion: 2
-      Hash: 00d9f714270df1d7e9b628227136d26d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: AnimatedWidget
-  - hash:
-      serializedVersion: 2
-      Hash: 2acfcdc99c7b09d97d193f5315c49769
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UILabel
-  - hash:
-      serializedVersion: 2
-      Hash: 5ba92984d30d12d58513535145cea6c6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UIButton
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayIdleAnimations
-  - hash:
-      serializedVersion: 2
-      Hash: 578ee2e8c8449303056d5a174a6f58c7
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UIDraggableCamera
-  - hash:
-      serializedVersion: 2
-      Hash: 54874b40f0e22e02ee499be6c842f2c1
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UIFont
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UIInputOnGUI
-  - hash:
-      serializedVersion: 2
-      Hash: 6859fc72b0d19e051273f301ded9ac27
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UILocalize
-  - hash:
-      serializedVersion: 2
-      Hash: f80eb5ce0a319c05861df60997a03ab4
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TweenPosition
-  - hash:
-      serializedVersion: 2
-      Hash: c54e5d238d05f0415928866fafbf602e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: LoadLevelOnClick
-  - hash:
-      serializedVersion: 2
-      Hash: eea5432127e1c2d004b5b21205ff5a02
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ExampleDragDropSurface
-  - hash:
-      serializedVersion: 2
-      Hash: 109f86e77e3e584a98030da6ccd86928
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UISnapshotPoint
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UISoundVolume
-  - hash:
-      serializedVersion: 2
-      Hash: 3882922ca0f91a771970d0ec6d5cc006
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TweenFOV
-  - hash:
-      serializedVersion: 2
-      Hash: 00fe22251866b55c79b945eefd0d12c8
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UIPlayAnimation
-  - hash:
-      serializedVersion: 2
-      Hash: 218a8101db24f71ae4b21e3c0e33891b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DownloadTexture
-  - hash:
-      serializedVersion: 2
-      Hash: 726c2d80203503d04d711808c415de8d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UICenterOnChild
-  - hash:
-      serializedVersion: 2
-      Hash: 46b014cc0442c1021c122c23eef297fe
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UIRoot
-  - hash:
-      serializedVersion: 2
-      Hash: cdb111c4aaa19d99269213a76a5a0697
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UISavedOption
-  - hash:
-      serializedVersion: 2
-      Hash: d01935e255746a23e8cc9d784d88b1b3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UIAnchor
-  - hash:
-      serializedVersion: 2
-      Hash: 235acfea8ea05a64f0d1848ecdb8a2c6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UIEquipmentSlot
-  - hash:
-      serializedVersion: 2
-      Hash: 57b7901acb8f652edd2af0d543336fe2
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TweenWidth
-  - hash:
-      serializedVersion: 2
-      Hash: b7981929821abd132370246ec4d57571
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PropertyBinding
-  - hash:
-      serializedVersion: 2
-      Hash: 14a71b262db23785deef59b9660eb41c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: LagRotation
-  - hash:
-      serializedVersion: 2
-      Hash: 1dfb225149e66dddbb8c8187a3128d34
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TweenLetters
-  - hash:
-      serializedVersion: 2
-      Hash: 1edda90bd56ec046791e104758f27481
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UIToggle
-  - hash:
-      serializedVersion: 2
-      Hash: f672cf9a788d7f2a0a1b4974d6db0e99
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UITexture
-  - hash:
-      serializedVersion: 2
-      Hash: 4af23350ad6d0a7b19e92d441cda5fc7
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UIStorageSlot
-  - hash:
-      serializedVersion: 2
-      Hash: a96b2e79cb442899c4474f7d72dce30f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UIEventTrigger
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UIDrawCall
-  - hash:
-      serializedVersion: 2
-      Hash: 622546c1b2212a505b64070eeabb1323
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UICamera
-  - hash:
-      serializedVersion: 2
-      Hash: aecbd573bbc1f7d53dc165c0f3513395
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: InvAttachmentPoint
-  - hash:
-      serializedVersion: 2
-      Hash: e2ff206140afa9fba550add28d8eab72
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UIShowControlScheme
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UIWidgetContainer
-  - hash:
-      serializedVersion: 2
-      Hash: 06f86e46f4509164c48be005bf88d766
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ChatInput
-  - hash:
-      serializedVersion: 2
-      Hash: f8df8f9481b4b718d9d4c3cb4730a6e1
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UITooltip
-  - hash:
-      serializedVersion: 2
-      Hash: 077a655851f95717e3c15e754ebc0c57
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UIInput
-  - hash:
-      serializedVersion: 2
-      Hash: c11ace4c6a16da2bce1177de63ebd86c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Spin
-  - hash:
-      serializedVersion: 2
-      Hash: 15e40b51761ae3b0b754261d2879bacd
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UIPlaySound
-  - hash:
-      serializedVersion: 2
-      Hash: bf814466f60c79fedea5e6d4ed540cfd
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TweenTransform
-  - hash:
-      serializedVersion: 2
-      Hash: 8b7ab3e01e398137620c0bc31ff095be
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UICursor
-  - hash:
-      serializedVersion: 2
-      Hash: c845d81dd997d5094da7cdf0cc923eb4
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TweenRotation
-  - hash:
-      serializedVersion: 2
-      Hash: 85b104ab42fb50172cc8a1c9e33072bb
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UIPopupList
-  - hash:
-      serializedVersion: 2
-      Hash: ceab607b5c6b3049e9c43ff476601811
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TypewriterEffect
-  - hash:
-      serializedVersion: 2
-      Hash: 948d28d5ec4f9136b81f1647831b146c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UIColorPicker
-  - hash:
-      serializedVersion: 2
-      Hash: a8430d51ebf6bc87a7fa60b858954bc3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UIDragDropContainer
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Tutorial5
+  - hash:
+      serializedVersion: 2
+      Hash: 318c6c13a19c9fac98135ae14889de1b
+    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
+    namespaceName: UnityEngine.Networking
+    className: NetworkMigrationManager
   - hash:
       serializedVersion: 2
       Hash: 3882922ca0f91a771970d0ec6d5cc006
@@ -1516,16 +1198,34 @@ ScriptsOnlyBuild:
     className: OpenURLOnClick
   - hash:
       serializedVersion: 2
+      Hash: c1933cc0a2f4ff6eb13333347497beb3
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
       Hash: 69dfab5a403b62a464b79ef63b1ec40b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIProgressBar
   - hash:
       serializedVersion: 2
+      Hash: 5a95f817a1636cb57e1923240ad0cfa1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GoogleARCore
+    className: ARCoreSessionConfig
+  - hash:
+      serializedVersion: 2
       Hash: 1f39d2f426328607799f207e1d7c5a11
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIDragScrollView
+  - hash:
+      serializedVersion: 2
+      Hash: edb986b6ebeb66208841352d63987938
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GoogleARCore.Examples.CloudAnchors
+    className: CloudAnchorsExampleController
   - hash:
       serializedVersion: 2
       Hash: 7452c0e96abf750df5104e82555ca736
@@ -1546,10 +1246,22 @@ ScriptsOnlyBuild:
     className: ExampleDragDropItem
   - hash:
       serializedVersion: 2
+      Hash: 40eab39826f66889566d3a3e6ef95673
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GoogleARCore.Examples.ObjectManipulation
+    className: TranslationManipulator
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: NGUIDebug
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
+    namespaceName: UnityEngine.Networking
+    className: NetworkBehaviour
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1570,16 +1282,52 @@ ScriptsOnlyBuild:
     className: UIAtlas
   - hash:
       serializedVersion: 2
+      Hash: b640dcae08889dea4d87e95a455bbf6b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GoogleARCore
+    className: AugmentedImageDatabase
+  - hash:
+      serializedVersion: 2
       Hash: a99b59d27d911423ed976291aea0f77f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIButtonRotation
   - hash:
       serializedVersion: 2
+      Hash: 3b760e6526e13f7504f59e210145899a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 14cb302be190eb67bf7fb5f1aab28ce0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GoogleARCore.Examples.ObjectManipulation
+    className: PawnManipulator
+  - hash:
+      serializedVersion: 2
       Hash: 9e91e872c10e8312d0de8b4654683f9e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIWrapContent
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: dea189cf620f6ac37dd27d491e1234b1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GoogleARCore.Examples.Common
+    className: DetectedPlaneGenerator
   - hash:
       serializedVersion: 2
       Hash: a99b59d27d911423ed976291aea0f77f
@@ -1618,6 +1366,18 @@ ScriptsOnlyBuild:
     className: UIButtonActivate
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ConfirmButtonController
+  - hash:
+      serializedVersion: 2
+      Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
       Hash: 3882922ca0f91a771970d0ec6d5cc006
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1654,6 +1414,12 @@ ScriptsOnlyBuild:
     className: InvEquipment
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GoogleARCore.Examples.Common
+    className: DetectedPlaneVisualizer
+  - hash:
+      serializedVersion: 2
       Hash: c6b43531eead9bac2e781c2daba60be9
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1672,10 +1438,34 @@ ScriptsOnlyBuild:
     className: UIItemStorage
   - hash:
       serializedVersion: 2
+      Hash: 1db723b554a361a812257e508051085f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GoogleARCore
+    className: ARCoreCameraConfigFilter
+  - hash:
+      serializedVersion: 2
       Hash: acd4fee18762886003fb1ed6915529ab
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AnimatedAlpha
+  - hash:
+      serializedVersion: 2
+      Hash: 1dcb82730d983b77cec736c6ef19f814
+    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
+    namespaceName: UnityEngine.Networking
+    className: NetworkDiscovery
+  - hash:
+      serializedVersion: 2
+      Hash: 893dbdbfe611d62e230a686ea89f1efd
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: SwingArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
   - hash:
       serializedVersion: 2
       Hash: 9f519e5f47fbc9d0305cc29aa0b93636
@@ -1690,10 +1480,34 @@ ScriptsOnlyBuild:
     className: UIDragDropItem
   - hash:
       serializedVersion: 2
+      Hash: 8118d37154f214ab0486c7b2852792b7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GoogleARCore.Examples.ObjectManipulation
+    className: ScaleManipulator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GoogleARCore.Examples.ComputerVision
+    className: PointClickHandler
+  - hash:
+      serializedVersion: 2
+      Hash: d791aa6007fa3640be1164ea75bb087d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
       Hash: c7e4512fcd582338edef9bff6c4fe8e1
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIKeyBinding
+  - hash:
+      serializedVersion: 2
+      Hash: e6ae40841db498b6e673877ac45ad208
+    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
+    namespaceName: UnityEngine.Networking
+    className: NetworkAnimator
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1714,16 +1528,52 @@ ScriptsOnlyBuild:
     className: UISlider
   - hash:
       serializedVersion: 2
+      Hash: df434544c9f7b33d1cc7e635b180d279
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
       Hash: bdbb48d71b863c427dc3493f977251a3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UITable
   - hash:
       serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
       Hash: d916570daafd9430d123385723dcdd1f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ActiveAnimation
+  - hash:
+      serializedVersion: 2
+      Hash: 32c3fe85a7a8c40f53b416638ffaecad
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Cat_Lite_Demo
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: a6be390312032ba0856f81fc3c448644
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GoogleARCore.Examples.ObjectManipulation
+    className: SelectionManipulator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
   - hash:
       serializedVersion: 2
       Hash: 75a65e549e27c1b84f230b068f20e3b7
@@ -1744,16 +1594,64 @@ ScriptsOnlyBuild:
     className: UIImageButton
   - hash:
       serializedVersion: 2
+      Hash: 9b895dcabbc1faf095c000c32d471fd0
+    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
+    namespaceName: UnityEngine.Networking
+    className: NetworkTransformChild
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: e0ee4b3d4e27318934cc940a969d3d96
+    assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
+    namespaceName: UnityEngine.Networking
+    className: NetworkManagerHUD
+  - hash:
+      serializedVersion: 2
       Hash: d3cfeb0b2ec8b729f9e0584c546c10e6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EquipItems
   - hash:
       serializedVersion: 2
+      Hash: a63fc1a3b035e5a0b5839cd7f7b3086e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 8649814970b42d345b89944b862453cc
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
       Hash: e2f33780f2ed353b40695f4b7e9d62dd
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EquipRandomItem
+  - hash:
+      serializedVersion: 2
+      Hash: 4ef0f7d42cdb13479386e1f049c315aa
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 2aeeec1b1a144c469cd2d37776bc2315
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
   - hash:
       serializedVersion: 2
       Hash: 190ebac6373bb21f4a1b2b7d40855ddb
@@ -1768,10 +1666,52 @@ ScriptsOnlyBuild:
     className: UISprite
   - hash:
       serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 21e871d89bbce53c038fc75ad1b7c7f3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GoogleARCore.Examples.CloudAnchors
+    className: CloudAnchorsNetworkManager
+  - hash:
+      serializedVersion: 2
+      Hash: 3783ede661ea842b191c776cf646c584
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CatMoveTo
+  - hash:
+      serializedVersion: 2
+      Hash: aa88ae22474df55295327e4ee99e5a24
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 7072231382eb3c4871b3dd75ad0227e1
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
       Hash: d5429fb4266f6b47dd315864cdf43aea
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UISliderColors
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1780,19 +1720,18 @@ ScriptsOnlyBuild:
     className: RealTime
   - hash:
       serializedVersion: 2
-      Hash: 81147538e0995e02dabd31a05e50ca23
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PetSelection
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: ConfirmButtonController
+    className: DontDestroyOnLoad
   platform: 13
   scenePathNames:
   - Assets/Scenes/PetSelectionScene.unity
-  - Assets/Scenes/PetSelection.unity
   - Assets/GoogleARCore/Examples/HelloAR/Scenes/HelloAR.unity
   playerPath: F:/unity/project/ARpet/Release/testAR.apk

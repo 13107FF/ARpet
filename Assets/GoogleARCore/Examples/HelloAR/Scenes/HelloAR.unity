@@ -164,6 +164,11 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 20155940112608238, guid: c10877f7cd5764de18d46d7b777d1faa,
+        type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 4294967263
+      objectReference: {fileID: 0}
     - target: {fileID: 114451889682527732, guid: c10877f7cd5764de18d46d7b777d1faa,
         type: 3}
       propertyPath: SessionConfig
@@ -278,6 +283,7 @@ MonoBehaviour:
     type: 3}
   numberOfObjectAllowed: 1
   curentNumberOfObjects: 0
+  petObject: {fileID: 0}
 --- !u!1001 &688001843
 PrefabInstance:
   m_ObjectHideFlags: 0
