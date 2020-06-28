@@ -58,6 +58,7 @@ public class PetSelection : MonoBehaviour
     private GameObject modelRoot;
     void Start()
     {
+        
         Object.DontDestroyOnLoad(gameObject);
         modelRoot = GameObject.Find("cat_model_root");
         Debug.Log("modelRoot: " + modelRoot.name);

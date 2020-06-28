@@ -55,7 +55,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\CatMoveTo.cs" />
      <Compile Include="Assets\GoogleARCore\Examples\AugmentedFaces\Scripts\ARCoreAugmentedFaceMeshFilter.cs" />
      <Compile Include="Assets\GoogleARCore\Examples\AugmentedFaces\Scripts\ARCoreAugmentedFaceRig.cs" />
      <Compile Include="Assets\GoogleARCore\Examples\AugmentedFaces\Scripts\AugmentedFacesExampleController.cs" />
@@ -81,6 +80,7 @@
      <Compile Include="Assets\GoogleARCore\Examples\ComputerVision\Scripts\TextureReader.cs" />
      <Compile Include="Assets\GoogleARCore\Examples\ComputerVision\Scripts\TextureReaderApi.cs" />
      <Compile Include="Assets\GoogleARCore\Examples\HelloAR\Scripts\HelloARController.cs" />
+     <Compile Include="Assets\GoogleARCore\Examples\HelloAR\Scripts\PanelController.cs" />
      <Compile Include="Assets\GoogleARCore\Examples\ObjectManipulation\Scripts\Gestures\DragGesture.cs" />
      <Compile Include="Assets\GoogleARCore\Examples\ObjectManipulation\Scripts\Gestures\DragGestureRecognizer.cs" />
      <Compile Include="Assets\GoogleARCore\Examples\ObjectManipulation\Scripts\Gestures\Gesture.cs" />
@@ -381,6 +381,7 @@
      <Compile Include="Assets\NGUI\Scripts\UI\UITooltip.cs" />
      <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
      <Compile Include="Assets\Scripts\ButtonController.cs" />
+     <Compile Include="Assets\Scripts\CatMoveTo.cs" />
      <Compile Include="Assets\Scripts\ConfirmButtonController.cs" />
      <Compile Include="Assets\Scripts\DontDestroyOnLoad.cs" />
      <Compile Include="Assets\Scripts\PetSelection.cs" />
