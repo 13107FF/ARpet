@@ -10,16 +10,42 @@ public class PanelController : MonoBehaviour
     public GameObject walkPanel;
     private GameObject currentPanel;
     private GoogleARCore.Examples.HelloAR.HelloARController ARController;
+
+    public int strengthValue;
+    public int moodValue;
+    public static int threshold = 95;
+    private float strengthTime = 4f;
+    private float moodTime = 6f;
+
     // Start is called before the first frame update
     void Start()
     {
         homePanel.SetActive(true);
+        moodPanel.SetActive(false);
+        foodPanel.SetActive(false);
+        walkPanel.SetActive(false);
         currentPanel = homePanel;
+        strengthValue = 100;
+        moodValue = 100;
     }
 
     // Update is called once per frame
     void Update()
     {
+        //Debug.Log("HungryValue: " + (Time.time - count).ToString());
+        if (Time.time >= strengthTime && strengthValue > 0)
+        {
+            Debug.Log("HungryValue: " + strengthValue.ToString());
+            strengthValue--;
+            strengthTime = Time.time + 4f;
+        }
+        if (Time.time >= moodTime && moodValue > 0)
+        {
+            Debug.Log("StrengthValue: " + moodValue.ToString());
+            moodValue--;
+            moodTime = Time.time + 4f;
+        }
+
 
     }
 
@@ -42,6 +68,15 @@ public class PanelController : MonoBehaviour
         currentPanel.SetActive(false);
         walkPanel.SetActive(true);
         currentPanel = walkPanel;
+    }
+
+    public void onHomeHungryMoodButtonClicked()
+    {
+ 
+    }
+    public void onHomeHungryWalkButtonClicked()
+    {
+
     }
 
     public void onHomeHouseButtonClicked()
