@@ -61,7 +61,7 @@ public class PetSelection : MonoBehaviour
     private GameObject modelRoot;
     void Start()
     {
-        Object.DontDestroyOnLoad(gameObject);
+        //Object.DontDestroyOnLoad(gameObject);
         modelRoot = GameObject.Find("cat_model_root");
         Debug.Log("modelRoot: " + modelRoot.name);
 
@@ -103,6 +103,10 @@ public class PetSelection : MonoBehaviour
     }
     public void OnConfirmButtonClick()
     {
+        selectedPet = modelRoot.transform.Find("cat_model " + selectedIndex.ToString()).gameObject;
+        selectedPet.SetActive(false);
+        PlayerPrefs.SetInt("selectedIndex", selectedIndex);
+        //Debug.Log("SelectedIndex1111111111111111111111111111111111:" + PlayerPrefs.GetInt("selectedIndex").ToString());
         GameObject.Find("Canvas").SetActive(false);
         SceneManager.LoadScene("HelloAR");
         Debug.Log("I was clicked!");

@@ -1,5 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp-Editor.dll:
+    - NGUITransformInspector
     Assembly-CSharp.dll:
     - CatMoveTo
     - GoogleARCore.ARCoreBackgroundRenderer
@@ -25,15 +27,17 @@ ScriptsOnlyBuild:
     - UIRoot
     - UISprite
     - UITexture
+    - foodPanelController
+    - homePanelController
+    - moodPanelController
+    - walkPanelController
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -122,6 +126,14 @@ ScriptsOnlyBuild:
       Script: {instanceID: 13876}
     - Class: 114
       Script: {instanceID: 14284}
+    - Class: 114
+      Script: {instanceID: 20770}
+    - Class: 114
+      Script: {instanceID: 27826}
+    - Class: 114
+      Script: {instanceID: 28702}
+    - Class: 114
+      Script: {instanceID: 30048}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -153,7 +165,11 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
     - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
       Script: {instanceID: 0}
     - Class: 43
       Script: {instanceID: 0}
@@ -1276,7 +1292,7 @@ ScriptsOnlyBuild:
     className: TranslationManipulator
   - hash:
       serializedVersion: 2
-      Hash: 6844eb8f7c156b38d410789e5d7f622e
+      Hash: f828d7531dbae05f3c3455ab5ae84a4b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PanelController
@@ -1760,6 +1776,30 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: homePanelController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: foodPanelController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: moodPanelController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: walkPanelController
   platform: 13
   scenePathNames:
   - Assets/Scenes/PetSelectionScene.unity

@@ -81,6 +81,10 @@
      <Compile Include="Assets\GoogleARCore\Examples\ComputerVision\Scripts\TextureReaderApi.cs" />
      <Compile Include="Assets\GoogleARCore\Examples\HelloAR\Scripts\HelloARController.cs" />
      <Compile Include="Assets\GoogleARCore\Examples\HelloAR\Scripts\PanelController.cs" />
+     <Compile Include="Assets\GoogleARCore\Examples\HelloAR\Scripts\foodPanelController.cs" />
+     <Compile Include="Assets\GoogleARCore\Examples\HelloAR\Scripts\homePanelController.cs" />
+     <Compile Include="Assets\GoogleARCore\Examples\HelloAR\Scripts\moodPanelController.cs" />
+     <Compile Include="Assets\GoogleARCore\Examples\HelloAR\Scripts\walkPanelController.cs" />
      <Compile Include="Assets\GoogleARCore\Examples\ObjectManipulation\Scripts\Gestures\DragGesture.cs" />
      <Compile Include="Assets\GoogleARCore\Examples\ObjectManipulation\Scripts\Gestures\DragGestureRecognizer.cs" />
      <Compile Include="Assets\GoogleARCore\Examples\ObjectManipulation\Scripts\Gestures\Gesture.cs" />
