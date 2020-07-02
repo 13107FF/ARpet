@@ -70,13 +70,15 @@ namespace GoogleARCore.Examples.HelloAR
 
         public GameObject CatFood;
         public GameObject CatToy;
+        public GameObject CatHousePrefab;
         public string SetModel = "cat";
-        public int numberOfObjectAllowed = 2;
+        public int numberOfObjectAllowed = 3;
         public int curentNumberOfObjects = 0;
 
         public GameObject petObject;
         public GameObject foodObject;
         public GameObject toyObject;
+        public GameObject houseObject;
         public string petStatus;
 
         private GameObject selected_pet;
@@ -140,7 +142,24 @@ namespace GoogleARCore.Examples.HelloAR
                     Debug.Log("Hit at back of the current DetectedPlane");
                 }
                 else
-                    if (SetModel == "cat" && curentNumberOfObjects < numberOfObjectAllowed)
+                if (curentNumberOfObjects == 0)
+                {
+                    curentNumberOfObjects++;
+                    GameObject prefab = CatHousePrefab;
+                    // Instantiate prefab at the hit pose.
+                    houseObject = Instantiate(prefab, hit.Pose.position, hit.Pose.rotation);
+                    // Compensate for the hitPose rotation facing away from the raycast (i.e.
+                    // camera).
+                    houseObject.transform.Rotate(0, k_PrefabRotation, 0, Space.Self);
+                    // Create an anchor to allow ARCore to track the hitpoint as understanding of
+                    // the physical world evolves.
+                    var anchor = hit.Trackable.CreateAnchor(hit.Pose);
+                    // Make game object a child of the anchor.
+                    houseObject.transform.parent = anchor.transform;
+                    SetModel = "cat";
+
+                }
+                else if (SetModel == "cat" && curentNumberOfObjects < numberOfObjectAllowed)
                 {
                     GameObject.Find("First Person Camera").gameObject.transform.Find("Panel").gameObject.SetActive(true);
                     curentNumberOfObjects++;
@@ -168,7 +187,10 @@ namespace GoogleARCore.Examples.HelloAR
                     }
 
                     // Instantiate prefab at the hit pose.
-                    petObject = Instantiate(prefab, hit.Pose.position, hit.Pose.rotation);
+                    Vector3 touchPos = hit.Pose.position;
+                    //touchPos.y += 0.5f;
+
+                    petObject = Instantiate(prefab, touchPos, hit.Pose.rotation);
 
                     // Compensate for the hitPose rotation facing away from the raycast (i.e.
                     // camera).
@@ -205,7 +227,7 @@ namespace GoogleARCore.Examples.HelloAR
                     SetModel = "nothing";
 
                     GameObject panel = GameObject.Find("Panel");
-                    panel.GetComponent<PanelController>().strengthValue += 5;
+                    panel.GetComponent<PanelController>().strengthValue += 30;
                     if (panel.GetComponent<PanelController>().strengthValue > 100)
                     {
                         panel.GetComponent<PanelController>().strengthValue = 100;
@@ -234,9 +256,10 @@ namespace GoogleARCore.Examples.HelloAR
                     // Make game object a child of the anchor.
                     toyObject.transform.parent = anchor.transform;
                     petObject.GetComponent<CatMoveTo>().StartMove(hit.Pose.position, "is_playing");
+                    SetModel = "nothing";
 
                     GameObject panel = GameObject.Find("Panel");
-                    panel.GetComponent<PanelController>().moodValue += 5;
+                    panel.GetComponent<PanelController>().moodValue += 30;
                     if (panel.GetComponent<PanelController>().moodValue > 100)
                     {
                         panel.GetComponent<PanelController>().moodValue = 100;
@@ -245,8 +268,10 @@ namespace GoogleARCore.Examples.HelloAR
                 }
                 else
                 {
+                    Vector3 touchPos = hit.Pose.position;
+                    //touchPos.y += 0.5f;
                     Debug.Log("Cat move start " + hit.Pose.position);
-                    petObject.GetComponent<CatMoveTo>().StartMove(hit.Pose.position, "is_walking");
+                    petObject.GetComponent<CatMoveTo>().StartMove(touchPos, "is_walking");
                 }
             }
         }

@@ -1789,6 +1789,7 @@ GameObject:
   - component: {fileID: 5334641343802967942}
   - component: {fileID: -6005911655947787281}
   - component: {fileID: -2952600718853257052}
+  - component: {fileID: 3236044192887296085}
   m_Layer: 0
   m_Name: cat_model 1
   m_TagString: Untagged
@@ -1805,7 +1806,7 @@ Transform:
   m_GameObject: {fileID: 8958554460832658837}
   m_LocalRotation: {x: 0, y: -0.9848078, z: 0, w: 0.17364824}
   m_LocalPosition: {x: 0, y: -0.4, z: -1}
-  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children:
   - {fileID: 1034897481991241097}
   - {fileID: 3824596443942921534}
@@ -1822,7 +1823,7 @@ Animator:
   m_GameObject: {fileID: 8958554460832658837}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: e4bbfd21b1b6b8d4e8ff4efd731aaa56, type: 3}
-  m_Controller: {fileID: 9100000, guid: 35a22689f6f5a1745ac32c6bb4f61c3e, type: 2}
+  m_Controller: {fileID: 9100000, guid: 72497e8174d392a4788fcb2a597c18ea, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1845,3 +1846,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startMarker: {fileID: 0}
   endMarker: {x: 0, y: 0, z: 0}
+  petAnimStatus: 
+--- !u!114 &3236044192887296085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8958554460832658837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07026e7bcf977c14c8935645e0e9c3f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObjectTag: Player
+  speed: 0.5
+  stoppingDistance: 1
+  followAllowed: 0
