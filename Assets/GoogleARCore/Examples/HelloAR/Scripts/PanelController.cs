@@ -11,9 +11,13 @@ public class PanelController : MonoBehaviour
     private GameObject currentPanel;
     private GoogleARCore.Examples.HelloAR.HelloARController ARController;
 
+    private bool firstInFoodPanel = true;
+    private bool firstInMoodPanel = true;
+    private bool firstInWalkPanel = true;
+
     public int strengthValue;
     public int moodValue;
-    public static int threshold = 95;
+    public static int threshold = 50;
     private float strengthTime = 4f;
     private float moodTime = 6f;
 
@@ -24,6 +28,8 @@ public class PanelController : MonoBehaviour
         moodPanel.SetActive(false);
         foodPanel.SetActive(false);
         walkPanel.SetActive(false);
+        //string str = "Cilck to ";
+        //GameObject.Find("Canvas").GetComponent<TextController>().showInfo(str, 10f);
         currentPanel = homePanel;
         strengthValue = 100;
         moodValue = 100;
@@ -53,6 +59,12 @@ public class PanelController : MonoBehaviour
     {
         currentPanel.SetActive(false);
         foodPanel.SetActive(true);
+        if (firstInFoodPanel)
+        {
+            string str = "Click the food button\nThen choose a place \nto place the cat food bowl";
+            GameObject.Find("Canvas").GetComponent<TextController>().showInfo(str, 4f);
+            firstInFoodPanel = false;
+        }
         currentPanel = foodPanel;
     }
 
@@ -60,6 +72,12 @@ public class PanelController : MonoBehaviour
     {
         currentPanel.SetActive(false);
         moodPanel.SetActive(true);
+        if (firstInMoodPanel)
+        {
+            string str = "Click the mood button\nThen choose a place to throw the ball";
+            GameObject.Find("Canvas").GetComponent<TextController>().showInfo(str, 4f);
+            firstInMoodPanel = false;
+        }
         currentPanel = moodPanel;
     }
 
@@ -68,6 +86,14 @@ public class PanelController : MonoBehaviour
         currentPanel.SetActive(false);
         walkPanel.SetActive(true);
         currentPanel = walkPanel;
+        if (firstInWalkPanel)
+        {
+            string str = "Move and the cat will follow you";
+            GameObject.Find("Canvas").GetComponent<TextController>().showInfo(str, 4f);
+            firstInWalkPanel = false;
+        }
+        ARController = GameObject.Find("HelloAR Controller").GetComponent<GoogleARCore.Examples.HelloAR.HelloARController>();
+        ARController.petObject.GetComponent<FollowGameObject>().followAllowed = true;
     }
 
     public void onHomeHungryMoodButtonClicked()
@@ -76,7 +102,7 @@ public class PanelController : MonoBehaviour
     }
     public void onHomeHungryWalkButtonClicked()
     {
-
+        
     }
 
     public void onHomeHouseButtonClicked()
@@ -103,5 +129,11 @@ public class PanelController : MonoBehaviour
         currentPanel.SetActive(false);
         homePanel.SetActive(true);
         currentPanel = homePanel;
+        ARController = GameObject.Find("HelloAR Controller").GetComponent<GoogleARCore.Examples.HelloAR.HelloARController>();
+        ARController.petObject.GetComponent<FollowGameObject>().followAllowed = false;
+        Destroy(ARController.foodObject);
+        Destroy(ARController.toyObject);
+        //ARController.foodObject.SetActive(false);
+        //ARController.toyObject.SetActive(false);
     }
 }

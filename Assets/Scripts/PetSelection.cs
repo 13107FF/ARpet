@@ -59,14 +59,21 @@ public class PetSelection : MonoBehaviour
     private int selectedIndex;
     public GameObject selectedPet;
     private GameObject modelRoot;
+
+    private GameObject indexImageRoot;
+    private GameObject selectedIndexImage;
+    private GameObject UIRoot;
     void Start()
     {
         //Object.DontDestroyOnLoad(gameObject);
         modelRoot = GameObject.Find("cat_model_root");
+        indexImageRoot = GameObject.Find("catIndex");
+        UIRoot = GameObject.Find("UI Root");
         Debug.Log("modelRoot: " + modelRoot.name);
 
         selectedIndex = startNumberOfModel;
         selectedPet = modelRoot.transform.Find("cat_model " + selectedIndex.ToString()).gameObject;
+        selectedIndexImage = indexImageRoot.transform.Find("Index" + (selectedIndex%4).ToString()).gameObject;
         Debug.Log("PetShow: " + selectedPet.name);
         showPet();
     }
@@ -84,12 +91,20 @@ public class PetSelection : MonoBehaviour
         selectedPet.SetActive(true);
         Debug.Log("PetShow: " + selectedIndex.ToString());
     }
+
+    void showIndexImage()
+    {
+        selectedIndexImage.SetActive(false);
+        selectedIndexImage = indexImageRoot.transform.Find("Index" + (selectedIndex % 4).ToString()).gameObject;
+        selectedIndexImage.SetActive(true);
+    }
     public void onLeftButtonClick()
     {
         selectedIndex--;
         if (selectedIndex == startNumberOfModel-1)
             selectedIndex = endNumberOfModel;
         showPet();
+        showIndexImage();
         Debug.Log("Left was clicked!");
     }
 
@@ -99,6 +114,7 @@ public class PetSelection : MonoBehaviour
         if (selectedIndex == endNumberOfModel+1)
             selectedIndex = startNumberOfModel;
         showPet();
+        showIndexImage();
         Debug.Log("Right was clicked!");
     }
     public void OnConfirmButtonClick()
@@ -106,8 +122,11 @@ public class PetSelection : MonoBehaviour
         selectedPet = modelRoot.transform.Find("cat_model " + selectedIndex.ToString()).gameObject;
         selectedPet.SetActive(false);
         PlayerPrefs.SetInt("selectedIndex", selectedIndex);
-        //Debug.Log("SelectedIndex1111111111111111111111111111111111:" + PlayerPrefs.GetInt("selectedIndex").ToString());
-        GameObject.Find("Canvas").SetActive(false);
+        GameObject.Find("Button").SetActive(false);
+        GameObject.Find("cat_model_root").SetActive(false);
+        GameObject.Find("catIndex").SetActive(false);
+        UIRoot.transform.Find("Label").gameObject.SetActive(false);
+        UIRoot.transform.Find("loadingText").gameObject.SetActive(true);
         SceneManager.LoadScene("HelloAR");
         Debug.Log("I was clicked!");
     }
@@ -123,9 +142,10 @@ public class PetSelection : MonoBehaviour
             startNumberOfModel = 1;
             endNumberOfModel = 4;
         }
-        selectedPet.SetActive(false);
         selectedIndex = startNumberOfModel;
-        selectedPet = modelRoot.transform.Find("cat_model " + selectedIndex.ToString()).gameObject;
-        selectedPet.SetActive(true);
+        
+        System.Threading.Thread.Sleep(1000);
+        showPet();
+        showIndexImage(); 
     }
 }

@@ -1,9 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
-    Assembly-CSharp-Editor.dll:
-    - NGUITransformInspector
     Assembly-CSharp.dll:
     - CatMoveTo
+    - FollowGameObject
     - GoogleARCore.ARCoreBackgroundRenderer
     - GoogleARCore.ARCoreCameraConfigFilter
     - GoogleARCore.ARCoreSession
@@ -17,6 +16,7 @@ ScriptsOnlyBuild:
     - GoogleARCore.Examples.HelloAR.HelloARController
     - PanelController
     - PetSelection
+    - TextController
     - UIAtlas
     - UIButton
     - UICamera
@@ -50,7 +50,9 @@ ScriptsOnlyBuild:
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
     - UnityEngine.UI.RawImage
     - UnityEngine.UI.Text
@@ -93,47 +95,53 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11666}
     - Class: 114
+      Script: {instanceID: 11812}
+    - Class: 114
       Script: {instanceID: 12152}
     - Class: 114
       Script: {instanceID: 12166}
     - Class: 114
       Script: {instanceID: 12184}
     - Class: 114
-      Script: {instanceID: 12260}
+      Script: {instanceID: 12240}
     - Class: 114
-      Script: {instanceID: 12294}
+      Script: {instanceID: 12262}
     - Class: 114
-      Script: {instanceID: 12518}
+      Script: {instanceID: 12296}
     - Class: 114
-      Script: {instanceID: 12754}
+      Script: {instanceID: 12520}
     - Class: 114
-      Script: {instanceID: 12960}
+      Script: {instanceID: 12756}
     - Class: 114
-      Script: {instanceID: 13190}
+      Script: {instanceID: 12874}
     - Class: 114
-      Script: {instanceID: 13296}
+      Script: {instanceID: 12964}
     - Class: 114
-      Script: {instanceID: 13400}
+      Script: {instanceID: 13194}
     - Class: 114
-      Script: {instanceID: 13492}
+      Script: {instanceID: 13258}
     - Class: 114
-      Script: {instanceID: 13670}
+      Script: {instanceID: 13300}
     - Class: 114
-      Script: {instanceID: 13674}
+      Script: {instanceID: 13404}
     - Class: 114
-      Script: {instanceID: 13812}
+      Script: {instanceID: 13496}
     - Class: 114
-      Script: {instanceID: 13876}
+      Script: {instanceID: 13580}
     - Class: 114
-      Script: {instanceID: 14284}
+      Script: {instanceID: 13678}
     - Class: 114
-      Script: {instanceID: 20770}
+      Script: {instanceID: 13682}
     - Class: 114
-      Script: {instanceID: 27826}
+      Script: {instanceID: 13758}
     - Class: 114
-      Script: {instanceID: 28702}
+      Script: {instanceID: 13822}
     - Class: 114
-      Script: {instanceID: 30048}
+      Script: {instanceID: 13886}
+    - Class: 114
+      Script: {instanceID: 14294}
+    - Class: 114
+      Script: {instanceID: 144866}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -204,6 +212,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11410}
     - Class: 114
+      Script: {instanceID: 11604}
+    - Class: 114
       Script: {instanceID: 11666}
     - Class: 114
       Script: {instanceID: 12082}
@@ -212,27 +222,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12226}
     - Class: 114
-      Script: {instanceID: 12260}
+      Script: {instanceID: 12262}
     - Class: 114
-      Script: {instanceID: 12544}
+      Script: {instanceID: 12546}
     - Class: 114
-      Script: {instanceID: 12608}
+      Script: {instanceID: 12610}
     - Class: 114
-      Script: {instanceID: 12690}
+      Script: {instanceID: 12692}
     - Class: 114
-      Script: {instanceID: 12780}
+      Script: {instanceID: 12782}
     - Class: 114
-      Script: {instanceID: 13070}
+      Script: {instanceID: 13074}
     - Class: 114
-      Script: {instanceID: 13540}
+      Script: {instanceID: 13500}
     - Class: 114
-      Script: {instanceID: 13670}
+      Script: {instanceID: 13546}
     - Class: 114
-      Script: {instanceID: 14280}
+      Script: {instanceID: 13678}
     - Class: 114
-      Script: {instanceID: 14284}
+      Script: {instanceID: 14290}
     - Class: 114
-      Script: {instanceID: 14306}
+      Script: {instanceID: 14294}
+    - Class: 114
+      Script: {instanceID: 14316}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -722,6 +734,12 @@ ScriptsOnlyBuild:
     className: UILocalize
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: walkPanelController
+  - hash:
+      serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -734,7 +752,7 @@ ScriptsOnlyBuild:
     className: ControlPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: 312d70b3c84dfafba63498948ac1be69
+      Hash: 1765de38c7b80a66bbee45419e22d2e5
     assemblyName: Assembly-CSharp.dll
     namespaceName: GoogleARCore.Examples.HelloAR
     className: HelloARController
@@ -1002,6 +1020,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: GoogleARCore.Examples.CloudAnchors
     className: AnchorController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: foodPanelController
   - hash:
       serializedVersion: 2
       Hash: 1ab92b1501bff4203df13dd5880207c1
@@ -1304,6 +1328,12 @@ ScriptsOnlyBuild:
     className: NGUIDebug
   - hash:
       serializedVersion: 2
+      Hash: 62df5e15a3b4330f8f6095d6a986eefe
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FollowGameObject
+  - hash:
+      serializedVersion: 2
       Hash: 24c74cc0d527a06113f2b967042769f0
     assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
     namespaceName: UnityEditor.XR.LegacyInputHelpers
@@ -1344,6 +1374,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIButtonRotation
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: homePanelController
   - hash:
       serializedVersion: 2
       Hash: 8001a5f7502aab37e42206da015e6914
@@ -1434,6 +1470,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TweenVolume
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: moodPanelController
   - hash:
       serializedVersion: 2
       Hash: b29f3b546c4c8daaf864491e6c89a3ec
@@ -1778,28 +1820,10 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: f60d845493ace5c60860d98c3357fef9
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: homePanelController
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: foodPanelController
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: moodPanelController
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: walkPanelController
+    className: TextController
   platform: 13
   scenePathNames:
   - Assets/Scenes/PetSelectionScene.unity

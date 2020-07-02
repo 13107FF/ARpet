@@ -76,9 +76,14 @@ public class CatMoveTo : MonoBehaviour
     public void StartMove(Vector3 endPos, string petstatus)
     {
         petAnimStatus = petstatus;
+        endMarker = endPos;
+        if (petAnimStatus == "is_eating")
+        {
+            endMarker.x -= 0.1f;
+            endMarker.z -= 0.1f;
+        }
         petAnim.SetBool("is_walking", true);
         startMarker = this.transform;
-        endMarker = endPos;
         startTime = Time.time;
         journeyLength = Vector3.Distance(startMarker.position, endMarker);
         Debug.Log("journeyLength is " + journeyLength);
